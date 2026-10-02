@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tayyab Naseer — CS Student & Mobile App Developer</title>
+<meta name="description" content="Computer Science undergraduate building mobile apps with Dart & Flutter.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="logo" href="#top"><i>TN</i>Tayyab Naseer</a>
+  <div class="links" id="links">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    <button class="tbtn" id="theme" aria-label="Toggle theme">◐</button>
+  </div>
+  <button class="burger" id="burger" aria-label="Menu">☰</button>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div>
+    <span class="badge"><i class="dot"></i>Open to collaboration</span>
+    <h1>Hi, I'm <span>Tayyab Naseer</span></h1>
+    <p class="lead">A Computer Science undergraduate who loves turning ideas into working code. Right now I'm focused on mobile app development with Dart, after building my foundations in C, C++ and OOP.</p>
+    <div class="cta"><a class="btn p" href="#projects">View my work →</a><a class="btn s" href="https://github.com/taib98765432-gif" target="_blank" rel="noopener">GitHub</a></div>
+  </div>
+  <div class="ide" aria-label="Code sample">
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-l="cpp">developer.cpp</button>
+      <button role="tab" aria-selected="false" data-l="dart">developer.dart</button>
+    </div>
+    <pre id="code"></pre>
+    <div class="status"><span id="lang">C++</span><span>click a tab to switch</span></div>
+  </div>
+</div></header>
+
+<section id="about"><div class="wrap">
+  <h2>A person who keeps building</h2>
+  <div class="about">
+    <div class="lead" style="max-width:none">
+      <p>I'm currently doing my graduation in Computer Science. My journey started with Programming Fundamentals, where I learned how to think in logic and structure. From there I picked up C and C++, and got comfortable with the core ideas of Object Oriented Programming.</p>
+      <p>These days most of my energy goes into mobile app development with Dart — I recently shipped my first project, a To-Do app. Next up on my learning list is HTML &amp; CSS, so I can shape the web side of things too.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>CS</b><span>Undergraduate</span></div>
+      <div class="stat"><b data-n="4">0</b><span>Languages touched</span></div>
+      <div class="stat"><b data-n="1">0</b><span>Shipped project</span></div>
+      <div class="stat"><b>∞</b><span>Curiosity</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>What I work with</h2>
+  <div class="skills" id="sk"></div>
+  <div class="tl">
+    <div><small>step 1</small><h3>Programming Fundamentals</h3><p>Started with the basics — variables, loops, functions and logic building in C.</p></div>
+    <div><small>step 2</small><h3>C++ and OOP</h3><p>Moved to C++ and object oriented thinking: classes, objects and inheritance.</p></div>
+    <div class="now"><small>step 3 · now</small><h3>Dart &amp; Mobile Apps</h3><p>Now building real mobile applications, starting with a To-Do app.</p></div>
+    <div><small>step 4 · next</small><h3>Web: HTML &amp; CSS</h3><p>Learning the web side next so I can design and tweak pages like this one.</p></div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2>Things I've built</h2>
+  <div class="proj">
+    <div class="info">
+      <span class="tag">Mobile app · Dart</span>
+      <h3 style="font-size:30px;margin:8px 0 14px">To-Do App</h3>
+      <p class="lead">My first mobile application — a simple, clean task manager where you can add, complete and remove daily tasks. Built while learning Dart and mobile UI layout, state handling and app structure.</p>
+      <div class="chips"><span>Dart</span><span>Mobile</span><span>State handling</span><span>UI layout</span></div>
+      <a class="btn p" href="https://github.com/taib98765432-gif/todoApp" target="_blank" rel="noopener">View on GitHub ↗</a>
+    </div>
+    <div class="phone">
+      <div class="dev">
+        <h4>My Tasks <small id="cnt"></small></h4>
+        <div class="add"><input id="in" placeholder="Add a task" maxlength="60" aria-label="New task"><button id="addb" aria-label="Add task">+</button></div>
+        <ul id="list"></ul>
+        <p class="hint">Live demo — add, complete and remove tasks</p>
+      </div>
+    </div>
+  </div>
+  <p class="more">More projects on the way as I keep learning. 🚀</p>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="contact">
+    <h2>Let's build something together</h2>
+    <p>Whether it's a student project, an internship or just a chat about code — I'd love to hear from you.</p>
+    <div class="cta" style="justify-content:center;margin:0">
+      <a class="btn p" href="mailto:tayyabnaseer@example.com">Email me</a>
+      <a class="btn s" href="https://github.com/taib98765432-gif" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</div></section>
+<footer>© 2026 Tayyab Naseer · Built with curiosity</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
